@@ -1,0 +1,159 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    min-width: 1200px;
+    min-height: 7.32rem;
+    background-image: url('../img/bj.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+
+.main img{
+    display: block;
+}
+
+.main  .phone{
+    width: 4rem;
+}
+
+.main  .g-sd-right {
+    margin-left: 0.5rem;
+}
+
+.main  .text{
+    width: 4.9rem;
+}
+
+.main  .but-ct {
+    margin-top: 0.33rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main  .download{
+    margin-top: -0.4rem;
+    width: 1.9rem;
+    transition: transform .3s ;
+}
+
+.main  .download:active{
+    transform:scale(0.9);
+}
+
+.main  .qr_code {
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius:20px;
+    background: #fff; 
+}
+
+.main  .qr_text {
+    font-size: 0.19rem;
+    color: #fff;
+    text-align: center;
+}
+
+.main .qrcode{
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+.main2{
+     
+    height: 100vh;
+ 
+    min-height: 7.32rem;
+    background-image: url('../img/bj.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+
+.main2 img{
+    display: block;
+}
+
+.main2  .phone{
+    width: 2rem;
+}
+
+.main2  .g-sd-right {
+     width:100%;
+}
+
+.main2  .g-sd-right .btnb{
+     
+}
+.main2  .g-sd-right .dimg{
+     display:flex;justify-content: center;align-items: center;
+}
+.main2  .g-sd-right .dimg1{
+    display:flex;justify-content: center;align-items: center;margin-bottom:30px;
+}
+
+.main2  .text{
+    width: 100%;
+}
+
+.main2  .but-ct {
+    margin-top: 0.33rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:80px;
+    margin-top:80px;
+    
+}
+
+.main2  .but-ct .btnb{
+    width:100%;height:80px;
+    justify-content:center;align-items: center;
+    overflow:hidden;
+    display:flex;
+    padding-left:30px;padding-right:30px;
+}
+
+.main2  .download{
+    margin-top: -0.4rem;
+    width:30px;
+    transition: transform .3s ;
+    
+    flex-grow: 1;
+}
+
+.main2 .download:active{
+    transform:scale(0.9);
+}
+
+.main2  .qr_code {
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius:20px;
+    background: #fff; 
+}
+
+.main2  .qr_text {
+    font-size: 0.19rem;
+    color: #fff;
+    text-align: center;
+}
+
+.main2 .qrcode{
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
